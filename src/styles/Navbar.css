@@ -15,3 +15,41 @@
   border-radius: .777em;
   color: var(--bg-color);
 }
+@media (max-width:500px){
+  .nav-user-btn{
+    padding-inline: 0;
+  }
+  .user-name-container{
+    display: none;
+  }
+  .user-initial{
+    margin-right: 0;
+  }
+}
+
+#menu-slide{
+  position: absolute;
+  background-color: var(--bg-color);
+  left: 0;
+}
+#menu-slide.hide{
+  left: -40em;
+}
+.menu-slide{
+  max-width: 20em;
+}
+
+.search-key-container{
+  max-width: 600px;
+  border-radius: 1em;
+  padding-block: .5em;
+}
+.search-key{
+  min-width: 8em;
+  margin-inline: .555em;
+}
+
+.search-bar{
+  min-width: 5em;
+}
+
