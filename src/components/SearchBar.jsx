@@ -1,6 +1,6 @@
-const SearchBar = () => {
+const SearchBar = ({className}) => {
   return (
-    <div className="flex align-items-center grow1">
+    <div className={`flex align-items-center grow1 ${className}`}>
       <img 
         className="medium-img" 
         src="src/assets/search.svg" 
