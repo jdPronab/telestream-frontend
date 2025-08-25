@@ -1,0 +1,17 @@
+.logo-text{
+  font-size: 1.8em;
+}
+
+.nav-user-btn{
+  background-color: var(--overlay);
+  color: var(--fg-color);
+}
+
+.user-initial{
+  background-color: var(--primary-color);
+  padding-inline: .8em;
+  padding-block: .4em;
+  margin-right: 1em;
+  border-radius: .777em;
+  color: var(--bg-color);
+}
