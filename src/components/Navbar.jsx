@@ -14,7 +14,7 @@ const Navbar = () => {
           <button onClick={() => setHide(!hide)} className="discard-button">
             <img 
               className="medium-img"
-              src="src/assets/hamburger.svg" 
+              src="/src/assets/hamburger.svg" 
               alt="hamburger" />
           </button>
           <h1 className="logo-text mil-small">udisk</h1>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link onClick={() => setHide(!hide)} className="mbl-small" to='/files'>My files</Link>
             <Link onClick={() => setHide(!hide)} className="mbl-small" to='/earnings'>Earning overview</Link>
             <Link onClick={() => setHide(!hide)} className="mbl-small" to='/daily/reports'>Daily report</Link>
-            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/referals'>Referrals</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/referrals'>Referrals</Link>
             <Link onClick={() => setHide(!hide)} className="mbl-small" to='/settings'>Settings</Link>
           </div>
       </div>
