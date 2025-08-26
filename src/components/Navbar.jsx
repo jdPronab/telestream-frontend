@@ -44,7 +44,7 @@ const Navbar = () => {
       <div id="menu-slide" className={`${hide ? 'hide' : ''} flex flex-column full-height menu-slide`}>
           <div className="flex flex-column mil-small mbl-small">
             <button className="mbl-small">Upload from telegram</button>
-            <Link className="mbl-small" to='/'>Dashboard</Link>
+            <Link className="mbl-small" to='/dashboard'>Dashboard</Link>
             <Link className="mbl-small" to='/'>My files</Link>
             <Link className="mbl-small" to='/'>Earning overview</Link>
             <Link className="mbl-small" to='/'>Daily report</Link>

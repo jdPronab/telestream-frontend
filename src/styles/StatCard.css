@@ -1,0 +1,16 @@
+.statcard-container{
+    background-color: var(--overlay);
+    width: 23em;
+    height: 8em;
+    border: 1px solid var(--fg-color);
+    border-radius: .4em;
+}
+
+.statcard-stat{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.statcard-title{
+    font-size: 1em;
+}
