@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard'
 import Files from './pages/Files'
 import Earnings from './pages/Earnings'
 import Reports from './pages/Reports'
+import Referrals from './pages/Referrals'
 import Settings from './pages/Settings'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/files' element={<Files />} />
       <Route path='/earnings' element={<Earnings />} />
       <Route path='/daily/reports' element={<Reports />} />
+      <Route path='/referrals' element={<Referrals />} />
       <Route path='/settings' element={<Settings />} />
     </Routes>
   )
