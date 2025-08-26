@@ -188,6 +188,9 @@ textarea::placeholder {
   flex-grow: 3;
 }
 
+.grid{
+  display: grid;
+}
 
 /* images */
 .small-img{
