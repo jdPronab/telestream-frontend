@@ -1,0 +1,33 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+import StatCard from '../components/StatCard'
+import '../styles/Dashboard.css'
+
+const Dashboard = () => {
+  return (
+    <div>
+      <Navbar />
+      <div className='mil-small'>
+        <div className='dashboard-header flex align-items-center space-between'>
+          <div className='mbl-small'>
+            <h1><span>Hello,</span>San Lee</h1>
+            <p className='mbl-small'>Take a look at your statistics.</p>
+          </div>
+          <div className='mbl-small'>
+            <p>All time</p>
+          </div>
+        </div>
+        <div className='dashboard-statcard grid'>
+          <StatCard stat={0} title={"Total files"}/>
+          <StatCard stat={100} title={"Storage used"}/>
+          <StatCard stat={1000} title={"Available balance"}/>
+          <StatCard stat={0} title={"CPM"}/>
+          <StatCard stat={0} title={"File downloads"}/>
+          <StatCard stat={0} title={"File views"}/>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Dashboard

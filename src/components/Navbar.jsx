@@ -14,10 +14,10 @@ const Navbar = () => {
           <button onClick={() => setHide(!hide)} className="discard-button">
             <img 
               className="medium-img"
-              src="src/assets/hamburger.svg" 
+              src="/src/assets/hamburger.svg" 
               alt="hamburger" />
           </button>
-          <h1 className="logo-text mil-small">TeleStream</h1>
+          <h1 className="logo-text mil-small">udisk</h1>
         </div>
         {/* <div className="flex align-items-center space-around">
           <Link to='/'>
@@ -44,12 +44,12 @@ const Navbar = () => {
       <div id="menu-slide" className={`${hide ? 'hide' : ''} flex flex-column full-height menu-slide`}>
           <div className="flex flex-column mil-small mbl-small">
             <button className="mbl-small">Upload from telegram</button>
-            <Link className="mbl-small" to='/'>Dashboard</Link>
-            <Link className="mbl-small" to='/'>My files</Link>
-            <Link className="mbl-small" to='/'>Earning overview</Link>
-            <Link className="mbl-small" to='/'>Daily report</Link>
-            <Link className="mbl-small" to='/'>Referrals</Link>
-            <Link className="mbl-small" to='/'>Settings</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/dashboard'>Dashboard</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/files'>My files</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/earnings'>Earning overview</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/daily/reports'>Daily report</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/referrals'>Referrals</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/settings'>Settings</Link>
           </div>
       </div>
     </header>
