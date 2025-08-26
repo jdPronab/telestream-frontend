@@ -6,10 +6,10 @@ const StatCard = ({stat, title, icon="src/assets/react.svg"}) => {
     <div className='statcard-container flex space-between align-items-center pbl-small pil-small'>
         <div>
             <div>
-                {stat}
+                <p className='statcard-stat'>{stat}</p>
             </div>
             <div>
-                {title}
+                <p className='statcard-title'>{title}</p>
             </div>
         </div>
         <div>
