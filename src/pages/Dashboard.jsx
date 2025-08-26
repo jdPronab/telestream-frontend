@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import StatCard from '../components/StatCard'
 import '../styles/Dashboard.css'
 
 const Dashboard = () => {
@@ -16,7 +17,13 @@ const Dashboard = () => {
             <p>All time</p>
           </div>
         </div>
-        <div>
+        <div className='dashboard-statcard grid'>
+          <StatCard stat={0} title={"Total files"}/>
+          <StatCard stat={100} title={"Storage used"}/>
+          <StatCard stat={1000} title={"Available balance"}/>
+          <StatCard stat={0} title={"CPM"}/>
+          <StatCard stat={0} title={"File downloads"}/>
+          <StatCard stat={0} title={"File views"}/>
         </div>
       </div>
     </div>
