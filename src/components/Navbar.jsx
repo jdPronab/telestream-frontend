@@ -44,12 +44,12 @@ const Navbar = () => {
       <div id="menu-slide" className={`${hide ? 'hide' : ''} flex flex-column full-height menu-slide`}>
           <div className="flex flex-column mil-small mbl-small">
             <button className="mbl-small">Upload from telegram</button>
-            <Link className="mbl-small" to='/dashboard'>Dashboard</Link>
-            <Link className="mbl-small" to='/'>My files</Link>
-            <Link className="mbl-small" to='/'>Earning overview</Link>
-            <Link className="mbl-small" to='/'>Daily report</Link>
-            <Link className="mbl-small" to='/'>Referrals</Link>
-            <Link className="mbl-small" to='/'>Settings</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/dashboard'>Dashboard</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/'>My files</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/'>Earning overview</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/'>Daily report</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/'>Referrals</Link>
+            <Link onClick={() => setHide(!hide)} className="mbl-small" to='/'>Settings</Link>
           </div>
       </div>
     </header>
