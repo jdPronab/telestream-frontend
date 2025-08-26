@@ -17,7 +17,7 @@ const Navbar = () => {
               src="src/assets/hamburger.svg" 
               alt="hamburger" />
           </button>
-          <h1 className="logo-text mil-small">TeleStream</h1>
+          <h1 className="logo-text mil-small">udisk</h1>
         </div>
         {/* <div className="flex align-items-center space-around">
           <Link to='/'>
